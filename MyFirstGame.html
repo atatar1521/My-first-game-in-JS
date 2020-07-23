@@ -120,7 +120,7 @@ function checkAnswer(selectedElement){
   else{
     after.classList.remove('hide');
     after.classList.add('wrong');
-    if(score>0){
+    if(score.innerHTML>0){
       score.innerText = Number(score.innerText) - 1;}
     else{
       score.innerText = 0;
